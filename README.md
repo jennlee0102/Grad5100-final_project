@@ -1,4 +1,4 @@
-[part_one]
+### part_one
 In this part of the final project, you will generate a data set that has certain statistical properties. “Synthetic” or “Fake” data can be useful for developing and testing algorithms and models.
 Your solution to this part will consist of:
 • a jupyternotebook called fake_data_builder.ipynb or that:
@@ -27,14 +27,14 @@ c. Group the dataset by the Group field and compute the mean and standard deviat
 4. Write your constructed dataframe/tibble to a csv file called fake_data.csv.
 Hint: You build a pandas dataframe from lists or vectors from a dictionary: df = pd.DataFrame({'column_name_one': data 1, 'column_name_two: data 2...}). You build a tibble from named lists df = tibble(column_name_one = data 1, ...)
 
-[part_two]
+### part_two
 Your answer to this part should be a jupyter notebook called file_fun.ipynb. This notebook should include the function asked for in part one together with the code to create the files described in part 2. You will include this file in your submitted github repository.
 The file codes.txt consists of 50 lines. Each line is a code of the following form: xxxxx_nnnnn_extension
 where xxxxx is a 5 digit number, nnnnn is a five digit alphabetic code, and extension is one of ‘py’,‘txt’, or ‘csv’.
 1. Write a function that takes a string of this form, extracts the alphabetic code nnnnn and the extension and returns a string of the form nnnnn.extension. So, for example, given ‘35538_YLTRR_csv’ it returns ‘YLTRR.csv’.
 2. Using your function, write code that reads in the entries from codes.txt and for each code writes the 5 digit number xxxxx into a file named nnnnn.extension constructed by your function in part 1. All of these files should be contained in a subdirectory of your main project directory called ‘expanded’. So for example, you would create a file called expanded/YLTRR.csv containing (just) 35538.
 
-[part_three]
+### part_three
 The topChef database
 TopChef is a reality TV show in which contestants, who are professional chefs, compete in a variety of cooking contests over the course of a season. Each episode, one or more chefs are kicked off the show, until, at the end the winner is crowned “Top Chef”.
 The topChef database contains information about (most of) the top Chef seasons.
